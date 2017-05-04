@@ -16,7 +16,7 @@
     <ul class="nav navbar-nav">
     </ul>
             <ul class="nav navbar-nav">
-          <li ui-sref-active="active"><a href="https://laravel-michaelgermini.c9users.io/contact" ui-sref="contacts">Contacts</a></li>
+          <li ui-sref-active="active"><a href="{{ url('contact') }}" ui-sref="contacts">Contacts</a></li>
           <li ui-sref-active="active"><a href="https://laravel-michaelgermini.c9users.io/read" ui-sref="read">Read</a></li>
           <li ui-sref-active="active"><a href="https://laravel-michaelgermini.c9users.io/post" ui-sref="post">Post</a></li>
           <li ui-sref-active="active"><a href="https://laravel-michaelgermini.c9users.io/index" ui-sref="index">Index</a></li>
