@@ -19,7 +19,7 @@
           <li ui-sref-active="active"><a href="{{ url('contact') }}" ui-sref="contacts">Contacts</a></li>
           <li ui-sref-active="active"><a href="https://laravel-michaelgermini.c9users.io/read" ui-sref="read">Read</a></li>
           <li ui-sref-active="active"><a href="https://laravel-michaelgermini.c9users.io/post" ui-sref="post">Post</a></li>
-          <li ui-sref-active="active"><a href="https://laravel-michaelgermini.c9users.io/index" ui-sref="index">Index</a></li>
+          <li ui-sref-active="active"><a href="{{ url('index') }}" ui-sref="index">Index</a></li>
           <li ui-sref-active="active"><a href="https://laravel-michaelgermini.c9users.io/tasks" ui-sref="tasks">Tasks</a></li>
         </ul>
         <div class="collpase navbar-collapse navbar-right">
